@@ -1,11 +1,19 @@
 @use '../../styles/variables'
 @use '../../styles/mixins'
 
-#container-site
+#site
   background: variables.$bg-color-primary
   height: 100%
   padding: 50px
   color: variables.$text-color-clear
+  display: grid
+  grid-template-rows: 1fr 4fr 65px
+
+  &-logo
+    margin-bottom: 2rem
   
   h1
     @include mixins.h1
+
+  &-btn
+    @include mixins.btn-primary-ligth
