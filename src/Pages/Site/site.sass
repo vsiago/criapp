@@ -7,13 +7,16 @@
   padding: 50px
   color: variables.$text-color-clear
   display: grid
-  grid-template-rows: 1fr 4fr 65px
+  grid-template-rows: 1fr 4fr 1.2fr .8fr 60px
 
   &-logo
     margin-bottom: 2rem
   
   h1
     @include mixins.h1
+
+  p
+    color: variables.$text-color-green-ligth
 
   &-btn
     @include mixins.btn-primary-ligth
