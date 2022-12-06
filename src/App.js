@@ -9,9 +9,7 @@ import Rotas from './Rotas';
 function App() {
   return (
     <BrowserRouter>
-
         <Rotas />
-
     </BrowserRouter>
 
   );
