@@ -1,14 +1,16 @@
 
+import React from 'react';
 import './styles/app.sass'
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from "react-router-dom";
 
-import Routes from './Routes';
+
+import Rotas from './Rotas';
 
 function App() {
   return (
     <BrowserRouter>
 
-        <Routes />
+        <Rotas />
 
     </BrowserRouter>
 
