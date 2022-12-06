@@ -1,6 +1,7 @@
 import './site.sass'
 import Logo from '../../img/logo-criapp.png'
 import { Link } from "react-router-dom";
+import ButtonPrimaryLigth from '../../Components/ButtonPrimaryLigth';
 
 
 function Site() {
@@ -13,7 +14,7 @@ function Site() {
           <p>Crie e gerencie aplicativos para sua empresa ou clientes.
             Compare e aprimore apenas utilizando o celular</p>
           <span>Teste grátis!</span>
-          <button id="site-btn"><Link to="login">Criar App</Link></button>
+          <Link to="login"><ButtonPrimaryLigth text="Show!"></ButtonPrimaryLigth></Link>
       </div>
     </div>
 
