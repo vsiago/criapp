@@ -1,11 +1,17 @@
-import Site from './Pages/Site/Site';
+
 import './styles/app.sass'
+import { BrowserRouter } from 'react-router-dom';
+
+import Routes from './Routes';
 
 function App() {
   return (
-    <div id="container">
-      <Site />
-    </div>
+    <BrowserRouter>
+
+        <Routes />
+
+    </BrowserRouter>
+
   );
 }
 
