@@ -1,5 +1,6 @@
 import './site.sass'
 import Logo from '../../img/logo-criapp.png'
+import { Link } from "react-router-dom";
 
 
 function Site() {
@@ -12,7 +13,7 @@ function Site() {
           <p>Crie e gerencie aplicativos para sua empresa ou clientes.
             Compare e aprimore apenas utilizando o celular</p>
           <span>Teste grátis!</span>
-          <button id="site-btn">Criar App</button>
+          <button id="site-btn"><Link to="login">Criar App</Link></button>
       </div>
     </div>
 
