@@ -2,14 +2,16 @@
 import React from 'react';
 import './styles/app.sass'
 import { BrowserRouter } from "react-router-dom";
-
+import './styles/app.sass'
 
 import Rotas from './Rotas';
 
 function App() {
   return (
     <BrowserRouter>
-        <Rotas />
+        <div id="container">
+          <Rotas />
+        </div>
     </BrowserRouter>
 
   );
